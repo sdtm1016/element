@@ -72,9 +72,9 @@
 </template>
 
 <script type="text/jsx">
-  import ElCollapseTransition from 'element-ui/src/transitions/collapse-transition';
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import emitter from 'element-ui/src/mixins/emitter';
+  import ElCollapseTransition from 'md-element-ui/src/transitions/collapse-transition';
+  import ElCheckbox from 'md-element-ui/packages/checkbox';
+  import emitter from 'md-element-ui/src/mixins/emitter';
   import { getNodeKey } from './model/util';
 
   export default {
