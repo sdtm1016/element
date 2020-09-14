@@ -27,7 +27,7 @@
                 @input="val => userInputDate = val"
                 @change="handleVisibleDateChange" />
             </span>
-            <span class="el-date-picker__editor-wrap" v-clickoutside="handleTimePickClose">
+            <span class="el-date-picker__editor-wrap">
               <el-input
                 ref="input"
                 @focus="timePickerVisible = true"
@@ -162,7 +162,7 @@
     extractTimeFormat,
     timeWithinRange
   } from 'md-element-ui/src/utils/date-util';
-  import Clickoutside from 'md-element-ui/src/utils/clickoutside';
+  // import Clickoutside from 'md-element-ui/src/utils/clickoutside';
   import Locale from 'md-element-ui/src/mixins/locale';
   import ElInput from 'md-element-ui/packages/input';
   import ElButton from 'md-element-ui/packages/button';
@@ -174,7 +174,7 @@
   export default {
     mixins: [Locale],
 
-    directives: { Clickoutside },
+    // directives: { Clickoutside },
 
     watch: {
       showTime(val) {
