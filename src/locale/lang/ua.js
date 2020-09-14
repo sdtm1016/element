@@ -16,6 +16,10 @@ export default {
       startTime: 'Час початку',
       endDate: 'Дата завершення',
       endTime: 'Час завершення',
+      prevYear: 'Попередній Рік',
+      nextYear: 'Наступний Рік',
+      prevMonth: 'Попередній Місяць',
+      nextMonth: 'Наступний Місяць',
       year: '',
       month1: 'Січень',
       month2: 'Лютий',
@@ -29,7 +33,7 @@ export default {
       month10: 'Жовтень',
       month11: 'Листопад',
       month12: 'Грудень',
-            // week: 'week',
+      week: 'тиждень',
       weeks: {
         sun: 'Нд',
         mon: 'Пн',
@@ -63,7 +67,8 @@ export default {
     cascader: {
       noMatch: 'Співпадінь не знайдено',
       loading: 'Завантаження',
-      placeholder: 'Обрати'
+      placeholder: 'Обрати',
+      noData: 'Немає даних'
     },
     pagination: {
       goto: 'Перейти',
@@ -78,6 +83,7 @@ export default {
       error: 'Неприпустимий ввід даних'
     },
     upload: {
+      deleteTip: 'натисніть кнопку щоб видалити',
       delete: 'Видалити',
       preview: 'Перегляд',
       continue: 'Продовжити'
@@ -99,6 +105,16 @@ export default {
       filterPlaceholder: 'Введіть ключове слово',
       noCheckedFormat: '{total} пунктів',
       hasCheckedFormat: '{checked}/{total} вибрано'
+    },
+    image: {
+      error: 'FAILED' // to be translated
+    },
+    pageHeader: {
+      title: 'Back' // to be translated
+    },
+    popconfirm: {
+      confirmButtonText: 'Yes', // to be translated
+      cancelButtonText: 'No' // to be translated
     }
   }
 };

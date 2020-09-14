@@ -16,6 +16,10 @@ export default {
       startTime: 'זמן התחלה',
       endDate: 'תאריך סיום',
       endTime: 'זמן סיום',
+      prevYear: 'Previous Year', // to be translated
+      nextYear: 'Next Year', // to be translated
+      prevMonth: 'Previous Month', // to be translated
+      nextMonth: 'Next Month', // to be translated
       year: '',
       month1: 'ינואר',
       month2: 'פברואר',
@@ -63,7 +67,8 @@ export default {
     cascader: {
       noMatch: 'ללא נתונים מתאימים',
       loading: 'טוען',
-      placeholder: 'בחר'
+      placeholder: 'בחר',
+      noData: 'ללא נתונים'
     },
     pagination: {
       goto: 'עבור ל',
@@ -78,6 +83,7 @@ export default {
       error: 'קלט לא תקין'
     },
     upload: {
+      deleteTip: 'press delete to remove', // to be translated
       delete: 'מחק',
       preview: 'תצוגה מקדימה',
       continue: 'המשך'
@@ -99,6 +105,16 @@ export default {
       filterPlaceholder: 'הקלד',
       noCheckedFormat: 'פריטים {total}',
       hasCheckedFormat: ' אישור {checked}/{total}'
+    },
+    image: {
+      error: 'FAILED' // to be translated
+    },
+    pageHeader: {
+      title: 'Back' // to be translated
+    },
+    popconfirm: {
+      confirmButtonText: 'Yes', // to be translated
+      cancelButtonText: 'No' // to be translated
     }
   }
 };

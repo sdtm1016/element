@@ -16,7 +16,11 @@ export default {
       startTime: 'Hora Inicial',
       endDate: 'Fecha Final',
       endTime: 'Hora Final',
-      year: 'Año',
+      prevYear: 'Año Anterior',
+      nextYear: 'Próximo Año',
+      prevMonth: 'Mes Anterior',
+      nextMonth: 'Próximo Mes',
+      year: '',
       month1: 'enero',
       month2: 'febrero',
       month3: 'marzo',
@@ -63,7 +67,8 @@ export default {
     cascader: {
       noMatch: 'No hay datos que coincidan',
       loading: 'Cargando',
-      placeholder: 'Seleccionar'
+      placeholder: 'Seleccionar',
+      noData: 'Sin datos'
     },
     pagination: {
       goto: 'Ir a',
@@ -77,6 +82,7 @@ export default {
       error: 'Entrada inválida'
     },
     upload: {
+      deleteTip: 'Pulse Eliminar para retirar',
       delete: 'Eliminar',
       preview: 'Vista Previa',
       continue: 'Continuar'
@@ -98,6 +104,16 @@ export default {
       filterPlaceholder: 'Ingresar palabra clave',
       noCheckedFormat: '{total} artículos',
       hasCheckedFormat: '{checked}/{total} revisados'
+    },
+    image: {
+      error: 'HA FALLADO'
+    },
+    pageHeader: {
+      title: 'Volver'
+    },
+    popconfirm: {
+      confirmButtonText: 'Si',
+      cancelButtonText: 'No'
     }
   }
 };
