@@ -54,8 +54,6 @@ export default {
       methodName: binding.expression,
       bindingFn: binding.value
     };
-    console.log('--clickoutside:bind:', el);
-    console.log(nodeList);
   },
 
   update(el, binding, vnode) {
@@ -65,14 +63,11 @@ export default {
   },
 
   unbind(el) {
-    console.log('--clickoutside:unbind:', el);
-    console.log(nodeList);
     let len = nodeList.length;
 
     for (let i = 0; i < len; i++) {
       if (nodeList[i][ctx].id === el[ctx].id) {
         nodeList.splice(i, 1);
-        console.log('--nodeList中清理:' + el[ctx].id);
         break;
       }
     }
