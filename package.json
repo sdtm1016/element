@@ -1,6 +1,6 @@
 {
   "name": "md-element-ui",
-  "version": "2.13.3",
+  "version": "2.13.7",
   "description": "A Component Library for Vue.js.",
   "main": "lib/md-element-ui.common.js",
   "files": [
